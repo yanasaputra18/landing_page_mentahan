@@ -1,12 +1,79 @@
 /* css destop strt */
+
 .content-text {
   text-align: justify;
 }
-.content_main1 {
-  height: 45rem;
-}
+
 .card-text {
   text-align: justify;
 }
+.icon_sosial,
+.icon a {
+  display: inline-block;
+  font-size: 3rem;
+  color: #ffff;
+}
+#social {
+  color: #ffff;
+}
+#testimoni {
+  height: 60rem;
+}
+#content2,
+#content4,
+#content3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#testimoni,
+.penutup_testimoni {
+  margin-top: 5rem;
+}
+.penutup_main1 {
+  padding: 3rem 0;
+}
 
 /* css destop endS */
+
+/* css moble stra */
+@media (max-width: 576px) {
+  .navbar,
+  .user {
+    display: none;
+  }
+  .nav-item a:hover {
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background-color: #ecf1ff;
+  }
+  #carouselExampleCaptions .carousel-img {
+    height: 40rem;
+  }
+  .penutup_testimoni,
+  .text1 {
+    font-size: 0.8rem;
+  }
+  #testimoni {
+    height: 40rem;
+  }
+  .text-sosial {
+    font-size: 0.8rem;
+  }
+  .subtitle_sosial {
+    font-size: 1.5rem;
+  }
+  .icon_sosial,
+  .icon a {
+    display: inline-block;
+    font-size: 2rem;
+    color: #ffff;
+  }
+  #content2,
+  #content4,
+  #content3,
+  #content1 {
+    margin-bottom: 1rem;
+  }
+}
+/* css moble end */
